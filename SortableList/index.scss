@@ -1,0 +1,38 @@
+.w100{width:100%;}
+.pl32{padding-left:32px;}
+.pr32{padding-right:32px;}
+
+.sortable-test {
+  height: 100%;
+  width: auto;
+  border-radius: 8px;
+  box-shadow: 0 0px 6px 0px rgba(96, 101, 122, 0.12);
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding-left: 16px;
+  padding-right: 16px;
+  transition: transform 0.2s ease;
+}
+
+.sortable-focus-item {
+  opacity: 0.85;
+  z-index: 10;
+}
+
+.sortable-focus-item > .sortable-test {
+  transform: scale(1.05);
+}
+
+.sortable-focus-current > .sortable-test {
+  transform: translateY(0);
+}
+
+.sortable-menu-icon {
+  width: 50px;
+  height: 24px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
