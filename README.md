@@ -1,3 +1,3 @@
 # taro-components
-> 仅用于个人收藏
+> 记录
 + sortable list
